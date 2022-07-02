@@ -1,4 +1,4 @@
-# **PONG**
+#**PONG**
 
 ## **Date: 7/2/2022**
 
@@ -7,6 +7,8 @@
 [LinkedIn](https://www.linkedin.com/in/russell-ochoa-7a2a9516/) | [GitHub](https://github.com/russellgochoa) | [Website](https://www.eg15m.com/) | [Trello](https://trello.com/b/eNux0e9S/russell-ochoa)
 
 ---
+
+### **_*Description Again*_**
 
 ### **_*Description*_**
 
@@ -33,4 +35,3 @@
 #### **Play Pong Game:** \*\*[Twisted By Art] (https://ponggame.io/)
 
 #### **Pong Game:** \*\*[Pong Game] (https://www.ponggame.org/)
-
