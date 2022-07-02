@@ -10,14 +10,13 @@
 
 ### **_*Description*_**
 
-## A simple re-imagining of the classic game PONG
+## A simple re-imagining of the classic game PONG for GA SEI 
 
 ### **_*Technologies*_**
 
-- Item 1
-- Item 2
-  - Sub-item 1
-  - Sub-item 2
+- HTML
+- JS
+- CSS
 
 ---
 
@@ -25,30 +24,7 @@
 
 ---
 
-### **_Screenshots_**
-
-#### 'Header'
-
-![Title](URL)
-
-#### 'Header/Title'
-
-![Title](URL)
-
----
-
-### **_Future Updates_**
-
-- [ ] Future Update 1
-- [ ] Future Update 2
-- [x] Completed Update
-- [x] ~~Strikethrough~~ Items Also
-
----
-
 ### **_Credits_**
-
-#### **Images:** **[author](URL)**
 
 #### **Markdown Guide:** **[ia.net](https://ia.net/)**
 
