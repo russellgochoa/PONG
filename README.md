@@ -8,8 +8,6 @@
 
 ---
 
-### **_*Description Again*_**
-
 ### **_*Description*_**
 
 ## A simple re-imagining of the classic game PONG for GA SEI
