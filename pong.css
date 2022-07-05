@@ -1,13 +1,46 @@
 * {
-  background-color: oyster;
+  height: 100%;
+  margin: 0;
   font-family: Arial, Helvetica, sans-serif;
+  padding-top: 15px;
 }
 
 body {
-  text-align: center;
-  background-color: #999999;
+  background: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.game-board {
+h1 {
+  color: whitesmoke;
+
+}
+
+.court {
+
+}
+
+.Player1_score {
+
+}
+
+.Player2_score {
   
+}
+
+.ball {
+  color: whitesmoke;
+}
+
+.net {
+  color: whitesmoke
+}
+
+.Paddle-1 {
+  color: whitesmoke;
+}
+
+.Paddle-2 {
+  color: whitesmoke;
 }
