@@ -1,49 +1,39 @@
-* {
-  height: 100%;
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-  padding-top: 15px;
-}
-
 body {
-  background: black;
-  display: flex;
-  text-align: center;
-}
+  margin: 30px;
+  background-color: black;
+} 
 
 h1 {
   color: whitesmoke;
   margin: auto;
-  text-align:  center;
+  text-align: center;
+  font-size: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.grid {
+  display: grid;
+  grid-gap: 50px;
+  grid-template-columns: 200px 200px 200px;
+  grid-template-rows: 200px 200px 200px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: whitesmoke;
+}
+
+.grid > div {
+  padding: 50px;
+  background-color: whitesmoke;
 }
 
 #player_1_score {
   margin-left: 1em;
 }
 
-#computer_score {
-  margin-right: 1em;
-}
-
-.ball {
+.dot {
   width: 30px;
   height: 15px;
   background: whitesmoke;
   border-radius: 100%
 }
 
-.net {
-  color: whitesmoke;
-  border-right: 6px dotted;
-  height: 100%;
-  top: 0;
-  width: 0;
-}
 
-.paddle_1 {
-  width: 15px;
-  height: 100px;
-  background: whitesmoke;
-}
-
-.computer_paddle {}
