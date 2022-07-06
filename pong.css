@@ -8,25 +8,25 @@
 body {
   background: black;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  padding: 5%;
+
+}
+
+#container {
+  color: whitesmoke;
+  height: calc(100%)
 }
 
 h1 {
   color: whitesmoke;
-
 }
 
-.court {
-
+.player_1_score {
+  margin-right: 1em;
 }
 
-.Player1_score {
-
-}
-
-.Player2_score {
-  
+.computer_score {
+  margin-left: 1em;
 }
 
 .ball {
@@ -34,13 +34,21 @@ h1 {
 }
 
 .net {
-  color: whitesmoke
+  color: whitesmoke;
+  border-right: 6px dashed;
+  height: 100%;
+  left: calc(50% - 3px);
+  top: 0;
+  width: 0;
+  
 }
 
-.Paddle-1 {
+.paddle_1 {
   color: whitesmoke;
+  left: 0;
 }
 
-.Paddle-2 {
+.computer_paddle {
   color: whitesmoke;
+  right: 0;
 }
