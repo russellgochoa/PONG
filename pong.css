@@ -14,6 +14,7 @@ body {
 h1 {
   color: whitesmoke;
   margin: auto;
+  text-align:  center;
 }
 
 #player_1_score {
@@ -25,23 +26,24 @@ h1 {
 }
 
 .ball {
-  color: whitesmoke;
+  width: 30px;
+  height: 15px;
+  background: whitesmoke;
+  border-radius: 100%
 }
 
 .net {
   color: whitesmoke;
   border-right: 6px dotted;
-  height: 75%;
+  height: 100%;
   top: 0;
   width: 0;
 }
 
 .paddle_1 {
-  color: whitesmoke;
-  left: 0;
+  width: 15px;
+  height: 100px;
+  background: whitesmoke;
 }
 
-.computer_paddle {
-  color: whitesmoke;
-  right: 0;
-}
+.computer_paddle {}
