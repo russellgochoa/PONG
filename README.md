@@ -30,8 +30,8 @@
 
 #### **Markdown Cheatsheet:** **[GitHub](https://github.com/)**
 
-#### **Play Pong Game:** \*\*[Twisted By Art](https://ponggame.io/)
+#### **Play Pong Game:** **[Twisted By Art](https://ponggame.io/)**
 
-#### **Pong Game:** \*\*[Pong Game](https://www.ponggame.org/)
+#### **Pong Game:** **[Pong Game](https://www.ponggame.org/)**
 
 #### **Pong Game in JavaScript** **[Geeks For Geeks](https://www.geeksforgeeks.org/pong-game-in-javascript/)**
