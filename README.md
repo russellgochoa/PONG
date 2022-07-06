@@ -35,3 +35,5 @@
 #### **Pong Game:** **[Pong Game](https://www.ponggame.org/)**
 
 #### **Pong Game in JavaScript** **[Geeks For Geeks](https://www.geeksforgeeks.org/pong-game-in-javascript/)**
+
+#### **Let's Code a Pong Game - Part 1** **[Idea To Code](https://ideatocode.wordpress.com/tag/pong-game/)**

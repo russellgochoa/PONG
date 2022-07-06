@@ -8,25 +8,20 @@
 body {
   background: black;
   display: flex;
-  padding: 5%;
-
-}
-
-#container {
-  color: whitesmoke;
-  height: calc(100%)
+  text-align: center;
 }
 
 h1 {
   color: whitesmoke;
+  margin: auto;
 }
 
-.player_1_score {
-  margin-right: 1em;
-}
-
-.computer_score {
+#player_1_score {
   margin-left: 1em;
+}
+
+#computer_score {
+  margin-right: 1em;
 }
 
 .ball {
@@ -35,12 +30,10 @@ h1 {
 
 .net {
   color: whitesmoke;
-  border-right: 6px dashed;
-  height: 100%;
-  left: calc(50% - 3px);
+  border-right: 6px dotted;
+  height: 75%;
   top: 0;
   width: 0;
-  
 }
 
 .paddle_1 {
