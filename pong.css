@@ -13,9 +13,11 @@ h1 {
 
 .grid {
   display: grid;
-  grid-gap: 50px;
-  grid-template-columns: 200px 200px 200px;
-  grid-template-rows: 200px 200px 200px;
+  grid-gap: 40px;
+  grid-template-columns: 150px 150px 150px;
+  column-gap: 0px;
+  grid-template-rows: 150px 150px 150px;
+  justify-content: space-evenly;
   font-family: Arial, Helvetica, sans-serif;
   color: whitesmoke;
 }
@@ -23,6 +25,8 @@ h1 {
 .grid > div {
   padding: 50px;
   background-color: whitesmoke;
+  display: grid;
+  place-items: center;
 }
 
 #player_1_score {
@@ -30,9 +34,9 @@ h1 {
 }
 
 .dot {
-  width: 30px;
-  height: 15px;
-  background: whitesmoke;
+  width: 55px;
+  height: 55px;
+  background: black;
   border-radius: 100%
 }
 
