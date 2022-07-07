@@ -10,7 +10,7 @@
 
 ### **_*Description*_**
 
-## CLick the dot to move it to a randon square for GA SEI
+## Click the dot to move it to a randon square / for GA SEI
 
 ### **_*Technologies*_**
 
