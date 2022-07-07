@@ -1,4 +1,4 @@
-# **PONG**
+# **GO DOT GO**
 
 ## **Date: 7/2/2022**
 
@@ -10,7 +10,7 @@
 
 ### **_*Description*_**
 
-## A simple re-imagining of the classic game PONG for GA SEI
+## CLick the dot to move it to a randon square for GA SEI
 
 ### **_*Technologies*_**
 
@@ -30,10 +30,10 @@
 
 #### **Markdown Cheatsheet:** **[GitHub](https://github.com/)**
 
-#### **Play Pong Game:** **[Twisted By Art](https://ponggame.io/)**
+#### **Kirupa:** **[Kirupa](https://forum.kirupa.com/)**
 
-#### **Pong Game:** **[Pong Game](https://www.ponggame.org/)**
+#### **MDN** **[Math.random()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random)**
 
-#### **Pong Game in JavaScript** **[Geeks For Geeks](https://www.geeksforgeeks.org/pong-game-in-javascript/)**
+#### **How to generate random number in given range using JavaScript?** **[Geeks For Geeks](https://www.geeksforgeeks.org/how-to-generate-random-number-in-given-range-using-javascript/)**
 
 #### **Let's Code a Pong Game - Part 1** **[Idea To Code](https://ideatocode.wordpress.com/tag/pong-game/)**
