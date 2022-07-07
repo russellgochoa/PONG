@@ -36,4 +36,4 @@
 
 #### **How to generate random number in given range using JavaScript?** **[Geeks For Geeks](https://www.geeksforgeeks.org/how-to-generate-random-number-in-given-range-using-javascript/)**
 
-#### **Let's Code a Pong Game - Part 1** **[Idea To Code](https://ideatocode.wordpress.com/tag/pong-game/)**
+#### **TIC-TAC_TOE HW** **[GA SEIR/GITHUB](https://github.com/SEI-R-6-21/u1_hw_tic_tac_toe)**
