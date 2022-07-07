@@ -15,8 +15,8 @@ for (let i = 0; i < squares.length; i++) {
     // console.log(event.target.children)
     // console.log(dot)
     if (event.target.children.length > 0) {
-      removeDot = true
-      // console.log('this condition is true')
+      event = true
+      //console.log('this condition is true')
     }
   })
 
