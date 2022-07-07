@@ -15,26 +15,27 @@ for (i = 0; i < squares.length; i++) {
     dotSquare = i
   }
 }
-console.log(dotSquare)
+
+//console.log(dotSquare)
 
 // select divs from html file
 
-function moveDot() {
-  const square1 = document.querySelector('#square1').innerText
-  const square2 = document.querySelector('#square2').innerText
-  const square3 = document.querySelector('#square3').innerText
-  const square4 = document.querySelector('#square4').innerText
-  const square5 = document.querySelector('#square5').innerText
-  const square6 = document.querySelector('#square6').innerText
-  const square7 = document.querySelector('#square7').innerText
-  const square8 = document.querySelector('#square8').innerText
-  const square9 = document.querySelector('#square9').innerText
-}
+// function moveDot() {
+//   const square1 = document.querySelector('#square1').innerText
+//   const square2 = document.querySelector('#square2').innerText
+//   const square3 = document.querySelector('#square3').innerText
+//   const square4 = document.querySelector('#square4').innerText
+//   const square5 = document.querySelector('#square5').innerText
+//   const square6 = document.querySelector('#square6').innerText
+//   const square7 = document.querySelector('#square7').innerText
+//   const square8 = document.querySelector('#square8').innerText
+//   const square9 = document.querySelector('#square9').innerText
+// }
 
 // make a dot
 // function that makes dot appear in random location on screen
-function randomSquare(min, max) {
-  return Math.random() * (max - min) + min
+function dotSquare(max) {
+  return Math.floor(Math.random() * max)
 }
 // make css grid "container" w/ 9 cells
 // each cell is it's own div
@@ -43,6 +44,18 @@ function randomSquare(min, max) {
 ////////////////////////////////
 // Event Listeners Here
 // listen for click event on the dot
-dot.addEventListener('click', () => {})
+
+document.querySelector('#square1').addEventListener('click', moveDot)
+document.querySelector('#square2').addEventListener('click', moveDot)
+document.querySelector('#square3').addEventListener('click', moveDot)
+document.querySelector('#square4').addEventListener('click', moveDot)
+document.querySelector('#square5').addEventListener('click', moveDot)
+document.querySelector('#square6').addEventListener('click', moveDot)
+document.querySelector('#square7').addEventListener('click', moveDot)
+document.querySelector('#square8').addEventListener('click', moveDot)
+document.querySelector('#square9').addEventListener('click', moveDot)
+
 // when the click event happens, we need to fire a function
+// moveDot.addEventListener('click', () => {})
+
 // function that fires needs to increase score and needs to invoke the function that moves the dot
