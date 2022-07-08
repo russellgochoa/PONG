@@ -15,11 +15,22 @@ for (let i = 0; i < squares.length; i++) {
     // console.log(event.target.children)
     // console.log(dot)
     if (event.target.children.length > 0) {
-      console.log('this condition is true')
+      squares[i].innerText = ''
+      //console.log('this condition is true')
     }
   })
 
-  // if (squares[i].innerHTML === '<div class="dot"></div>') {
-  //   dotSquare = i
-  // }
+  // dot.addEventListener('click', (event) => {
+  //   if (event.target.dot)
+  // })
+  // each cell is it's own div
+  // populate divs one at a time with the dot
+
+  // function that makes dot appear in random location on screen
+  // function randomSquare(min, max) {
+  //   return Math.random() * (max - min) + min
+  // } ???
+
+  // when the click event happens, we need to fire a function
+  // function that fires needs to increase score and needs to invoke the function that moves the dot
 }
