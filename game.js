@@ -1,17 +1,22 @@
 let score = 0
 let dotSquare = 0
-const dot = document.querySelector('.dot')
+let dot = '<div class="dot"></div>' //document.querySelector('.dot')
 const squares = document.getElementsByClassName('square')
 
 for (let i = 0; i < squares.length; i++) {
   squares[i].addEventListener('click', (event) => {
-    if (event.target.children.length > 0) {
-      squares[i].innerText = ''
+    if (event.target.innerHTML != '') {
+      squares[i].innerHTML = ''
+      squares[Math.floor(Math.random() * 9)].innerHTML = dot
+      //event.target.innerHTML = dot
+      // console.log((event.target.innerHTML = dot))
     }
-    //console.log((squares[i].dotSquare = Math.ceil(Math.random() * 9)))
+
+    //console.log(squares[Math.floor(Math.random() * 9)])
   })
 }
 
+//console.log(parseInt('string'.length / 2))
 // each cell is it's own div
 // populate divs one at a time with the dot
 
@@ -27,6 +32,25 @@ for (let i = 0; i < squares.length; i++) {
 
 // function that makes dot appear in random location on screen
 
-// function randomSquare(min, max) {
+// let changeSquare = () => {
+//   Math.floor(Math.random() * 9)
+// }
+// console.log(changeSquare)
 // console.log(Math.ceil(Math.random() * 9))
 // } ???
+const resetButton = document.getElementById('btn')
+resetButton.addEventListener('click', () => {
+  for (let i = 0; i < squares.length; i++) {
+    squares[i].innerText = ''
+  }
+})
+
+// document.querySelector('#square1').addEventListener('click')
+// document.querySelector('#square2').addEventListener('click')
+// document.querySelector('#square3').addEventListener('click')
+// document.querySelector('#square4').addEventListener('click')
+// document.querySelector('#square5').addEventListener('click')
+// document.querySelector('#square6').addEventListener('click')
+// document.querySelector('#square7').addEventListener('click')
+// document.querySelector('#square8').addEventListener('click')
+// document.querySelector('#square9').addEventListener('click')
