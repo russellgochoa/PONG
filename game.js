@@ -41,16 +41,7 @@ for (let i = 0; i < squares.length; i++) {
 const resetButton = document.getElementById('btn')
 resetButton.addEventListener('click', () => {
   for (let i = 0; i < squares.length; i++) {
-    squares[i].innerText = ''
+    squares[i].innerHTML = ''
+    squares[Math.floor(Math.random())].innerHTML = dot
   }
 })
-
-// document.querySelector('#square1').addEventListener('click')
-// document.querySelector('#square2').addEventListener('click')
-// document.querySelector('#square3').addEventListener('click')
-// document.querySelector('#square4').addEventListener('click')
-// document.querySelector('#square5').addEventListener('click')
-// document.querySelector('#square6').addEventListener('click')
-// document.querySelector('#square7').addEventListener('click')
-// document.querySelector('#square8').addEventListener('click')
-// document.querySelector('#square9').addEventListener('click')
